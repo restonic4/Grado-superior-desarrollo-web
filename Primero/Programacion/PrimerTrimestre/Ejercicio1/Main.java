@@ -1,6 +1,5 @@
 package Primero.Programacion.PrimerTrimestre.Ejercicio1;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 @SuppressWarnings("all")
@@ -64,11 +63,12 @@ public class Main {
 
     public static void promts() {
         Scanner scanner = new Scanner(System.in);
-        String nombre;
+        String nombre, apellido;
 
         System.out.println("Nombre: ");
         nombre = scanner.nextLine();
 
-        System.out.println(nombre);
+        System.out.print("Apellido: ");
+        apellido = scanner.nextLine();
     }
 }
