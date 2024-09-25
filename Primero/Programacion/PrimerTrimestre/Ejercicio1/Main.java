@@ -30,9 +30,9 @@ public class Main {
 
         System.out.println(
                 (
-                        (currentYear > birthdayYear) ||
-                        (currentYear == birthdayYear && currentMonth > birthdayMonth) ||
-                        (currentYear == birthdayYear && currentMonth == birthdayMonth && currentDay >= birthdayDay)
+                        (currentYear - birthdayYear > 18) ||
+                        (currentYear - birthdayYear == 18 && currentMonth > birthdayMonth) ||
+                        (currentYear - birthdayYear == 18 && currentMonth == birthdayMonth && currentDay >= birthdayDay)
                 ) ?
                     "Soy mayor de edad" : "Tas chikito"
         );
