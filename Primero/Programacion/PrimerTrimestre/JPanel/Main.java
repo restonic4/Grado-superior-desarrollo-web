@@ -40,6 +40,10 @@ public class Main {
                     dialog.setSize(defaultSize + animatedX, defaultSize + animatedY);
                 }
 
+                if (Math.random() < 0.1f) {
+                    dialog.toFront();
+                }
+
                 dialog.setLocation(animatedX, animatedY);
             }
         });
