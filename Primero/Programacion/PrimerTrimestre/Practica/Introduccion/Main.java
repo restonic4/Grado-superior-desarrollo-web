@@ -1,4 +1,4 @@
-package Primero.Programacion.PrimerTrimestre.Introduccion;
+package Primero.Programacion.PrimerTrimestre.Practica.Introduccion;
 
 // I already know all of this xd
 public class Main {

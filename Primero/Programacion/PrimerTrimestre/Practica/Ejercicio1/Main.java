@@ -1,4 +1,4 @@
-package Primero.Programacion.PrimerTrimestre.Ejercicio1;
+package Primero.Programacion.PrimerTrimestre.Practica.Ejercicio1;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Primero.Programacion.PrimerTrimestre.JPanel;
+package Primero.Programacion.PrimerTrimestre.Practica.JPanel;
 
 import javax.swing.*;
 

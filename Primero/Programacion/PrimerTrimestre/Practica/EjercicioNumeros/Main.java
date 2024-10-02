@@ -1,4 +1,4 @@
-package Primero.Programacion.PrimerTrimestre.EjercicioNumeros;
+package Primero.Programacion.PrimerTrimestre.Practica.EjercicioNumeros;
 
 import java.util.HashMap;
 import java.util.Map;

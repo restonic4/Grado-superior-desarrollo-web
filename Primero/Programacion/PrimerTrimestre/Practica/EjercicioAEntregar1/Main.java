@@ -1,6 +1,5 @@
-package Primero.Programacion.PrimerTrimestre.EjercicioAEntregar1;
+package Primero.Programacion.PrimerTrimestre.Practica.EjercicioAEntregar1;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
