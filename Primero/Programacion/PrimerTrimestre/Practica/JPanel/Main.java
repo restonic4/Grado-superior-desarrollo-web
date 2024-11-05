@@ -2,16 +2,29 @@ package Primero.Programacion.PrimerTrimestre.Practica.JPanel;
 
 import javax.swing.*;
 
+@SuppressWarnings("SpellCheckingInspection")
 public class Main {
+    /*
+    hola, esto es una prueba xd
+     */
+
     public static void main(String[] args) {
-        showWindow(400, 200, 3, false);
+        String text = JOptionPane.showInputDialog("Nombre");
+        String number = JOptionPane.showInputDialog("Numero");
+        int flag = JOptionPane.showConfirmDialog(null, "Flag", "flag?", JOptionPane.YES_NO_OPTION);
+
+        JOptionPane.showMessageDialog(null, "Datos: " + text + ", " + number + ", " + flag);
+
+
+
+        /*showWindow(400, 200, 3, false);
         showWindow(800, 200, 3, false);
         showWindow(800, 0, 3, false);
         showWindow(1000, 400, 3, false);
         showWindow(0, 0, 3, false);
         showWindow(20, 300, 10, false);
         showWindow(400, 400, 50, false);
-        showWindow(400, 200, 3, true);
+        showWindow(400, 200, 3, true);*/
     }
 
     public static void showWindow(int offsetX, int offsetY, int speed, boolean size) {
