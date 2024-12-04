@@ -9,6 +9,7 @@ import java.util.Scanner;
  * This project has been coded using Java 17 and IntelliJ
  * @author restonic4 (Marcos)
  */
+@SuppressWarnings("SpellCheckingInspection")
 public class Main {
     public static final Scanner scanner = new Scanner(System.in);
 
