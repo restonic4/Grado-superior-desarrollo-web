@@ -33,8 +33,8 @@ public class Main {
         words.sort(Comparator.comparingInt(String::length).reversed());
 
         System.out.println("Las tres palabras mas largas son:");
-        for (int i = 0; i < Math.min(3, words.size()); i++) {
-            System.out.println(words.get(i) + " (" + words.get(i).length() + ")");
+        for (String word : words) {
+            System.out.println(word + " (" + word.length() + ")");
         }
     }
 
